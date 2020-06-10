@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>UNiGHTS</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -16,10 +18,80 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.996666740867-ichkrkovs3gqjvu2ba3nrg6rk3bvorrc</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb224289704899352</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>7</string>
+	<key>FacebookAppID</key>
+	<string>224289704899352</string>
+	<key>FacebookDisplayName</key>
+	<string>UNiGHTS</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Use camera for uploading the image and for scan</string>
+	<key>NSLocalizedDescription</key>
+	<string>Local</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>To get nearby events.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To get nearby events.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Upload your image from library</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>LemonMilk.otf</string>
+		<string>LemonMilkbold.otf</string>
+		<string>LemonMilkbolditalic.otf</string>
+		<string>LemonMilkitalic.otf</string>
+		<string>LemonMilklight.otf</string>
+		<string>LemonMilklightitalic.otf</string>
+		<string>Lato-Heavy.ttf</string>
+		<string>Lato-HeavyItalic.ttf</string>
+		<string>Lato-Italic.ttf</string>
+		<string>Lato-Light.ttf</string>
+		<string>Lato-LightItalic.ttf</string>
+		<string>Lato-Medium.ttf</string>
+		<string>Lato-MediumItalic.ttf</string>
+		<string>Lato-Regular.ttf</string>
+		<string>Lato-Semibold.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -31,8 +103,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>

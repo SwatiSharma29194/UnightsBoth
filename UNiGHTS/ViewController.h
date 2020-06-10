@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)LoginBtTapped:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *nameTxt;
+@property (weak, nonatomic) IBOutlet UITextField *emailTxt;
+@property (strong, nonatomic) IBOutlet UITextField *universityTxt;
 
+@property (weak, nonatomic) IBOutlet UITextField *passwordTxt;
 
 @end
 

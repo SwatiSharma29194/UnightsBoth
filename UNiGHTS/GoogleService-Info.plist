@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>996666740867-ichkrkovs3gqjvu2ba3nrg6rk3bvorrc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.996666740867-ichkrkovs3gqjvu2ba3nrg6rk3bvorrc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA_YRIr8YwgBiFyCmmRA0rtr_oysN4VgR0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>996666740867</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.rvtech.story.UNiGHTS</string>
+	<key>PROJECT_ID</key>
+	<string>unights-c4078</string>
+	<key>STORAGE_BUCKET</key>
+	<string>unights-c4078.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:996666740867:ios:10b7b0e53ced8fc6</string>
+	<key>DATABASE_URL</key>
+	<string>https://unights-c4078.firebaseio.com</string>
+</dict>
+</plist>
